@@ -5,12 +5,12 @@ description = ""
 authors = ["Petr Stribny <petrstribny@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
-fastapi = "^0.63.0"
-SQLAlchemy = "1.4"
-typer = "^0.3.2"
-asyncpg = "^0.22.0"
-uvicorn = "^0.13.4"
+python = "^3.10"
+fastapi = "^0.104.1"
+asyncpg = "^0.29.0"
+uvicorn = "^0.24.0.post1"
+typer = "^0.9.0"
+sqlalchemy = {version = "^1.4.0", extras = ["asyncio"]}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
